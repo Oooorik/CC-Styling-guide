@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    border: 1px black solid;
+    padding: 5px 8px;
+    margin: 20px; 
+}
+h1 {
+    text-align: center;
+}
