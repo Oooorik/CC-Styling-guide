@@ -1,9 +1,64 @@
 .container {
     display: flex;
     border: 1px black solid;
-    padding: 5px 8px;
-    margin: 20px; 
+    padding: 50px 80px;
+    margin: 50px; 
+    background-color: cornsilk;
 }
 h1 {
     text-align: center;
+}
+h2 {
+    color: orangered
+}
+body {
+    background-color: aquamarine;
+}
+.fonts {
+   display: flex;
+   border: 1px black solid;
+   padding: 5px 8px;
+   margin: 20px;   
+}
+.text {
+    display: flex;
+    border: 1px black dotted;
+    padding: 10px 12px;
+    margin: 30px;
+}
+.purple {
+    display: flex;
+    border: 1px black solid;
+    background-color: purple;
+    padding: 10px 10px;
+    margin: 5px;
+
+}
+.aquamarine {
+    display: flax;
+    border: 1px black solid;
+    background-color: aquamarine;
+    padding: 10px 10px;
+    margin: 5px;
+}
+.yellow {
+    display: flex;
+    border: 1px black solid;
+    background-color: yellow;
+    padding: 10px 10px;
+    margin: 5px;
+}
+.orangered {
+    display: flex;
+    border: 1px black solid;
+    background-color: orangered;
+    padding: 10px 10px;
+    margin: 5px;
+}
+.red {
+    display: flex;
+    border: 1px black solid;
+    background-color: red;
+    padding: 10px 10px;
+    margin: 5px;
 }
