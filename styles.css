@@ -1,8 +1,8 @@
 .container {
     display: flex;
     border: 1px black solid;
-    padding: 50px 80px;
-    margin: 50px; 
+    padding: 90px 90px;
+    margin: 100px; 
     background-color: cornsilk;
 }
 h1 {
@@ -15,6 +15,7 @@ body {
     background-color: aquamarine;
 }
 .fonts {
+   font-style: normal;
    display: flex;
    border: 1px black solid;
    padding: 5px 8px;
@@ -30,7 +31,7 @@ body {
     display: flex;
     border: 1px black solid;
     background-color: purple;
-    padding: 10px 10px;
+    padding: 10px 50px;
     margin: 5px;
 
 }
@@ -38,27 +39,27 @@ body {
     display: flex;
     border: 1px black solid;
     background-color: aquamarine;
-    padding: 10px 10px;
+    padding: 10px 50px;
     margin: 5px;
 }
 .yellow {
     display: flex;
     border: 1px black solid;
     background-color: yellow;
-    padding: 10px 10px;
+    padding: 10px 50px;
     margin: 5px;
 }
 .orangered {
     display: flex;
     border: 1px black solid;
     background-color: orangered;
-    padding: 10px 10px;
+    padding: 10px 50px;
     margin: 5px;
 }
 .red {
     display: flex;
     border: 1px black solid;
     background-color: red;
-    padding: 10px 10px;
+    padding: 10px 50px;
     margin: 5px;
 }
