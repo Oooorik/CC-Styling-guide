@@ -35,7 +35,7 @@ body {
 
 }
 .aquamarine {
-    display: flax;
+    display: flex;
     border: 1px black solid;
     background-color: aquamarine;
     padding: 10px 10px;
