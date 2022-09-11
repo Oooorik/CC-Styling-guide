@@ -1,9 +1,9 @@
 .container {
-    display: flex;
-    border: 1px black solid;
-    padding: 90px 90px;
-    margin: 100px; 
-    background-color: cornsilk;
+   height: 375;
+   width: 1036;
+   border: 2px solid black;
+   padding: 10px;
+   margin: 10px auto;
 }
 h1 {
     text-align: center;
@@ -13,53 +13,4 @@ h2 {
 }
 body {
     background-color: aquamarine;
-}
-.fonts {
-   font-style: normal;
-   display: flex;
-   border: 1px black solid;
-   padding: 5px 8px;
-   margin: 20px;   
-}
-.text {
-    display: flex;
-    border: 1px black dotted;
-    padding: 10px 12px;
-    margin: 30px;
-}
-.purple {
-    display: flex;
-    border: 1px black solid;
-    background-color: purple;
-    padding: 10px 50px;
-    margin: 5px;
-
-}
-.aquamarine {
-    display: flex;
-    border: 1px black solid;
-    background-color: aquamarine;
-    padding: 10px 50px;
-    margin: 5px;
-}
-.yellow {
-    display: flex;
-    border: 1px black solid;
-    background-color: yellow;
-    padding: 10px 50px;
-    margin: 5px;
-}
-.orangered {
-    display: flex;
-    border: 1px black solid;
-    background-color: orangered;
-    padding: 10px 50px;
-    margin: 5px;
-}
-.red {
-    display: flex;
-    border: 1px black solid;
-    background-color: red;
-    padding: 10px 50px;
-    margin: 5px;
 }
