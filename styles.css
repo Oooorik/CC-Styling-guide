@@ -14,3 +14,52 @@ h2 {
 body {
     background-color: aquamarine;
 }
+.color-panel-purple {
+    background-color: purple;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px
+}   
+.color-panel-aquamarine {
+    border: 1px;
+    border-color: solid white;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px
+}
+.color-panel-yellow {
+    background-color: white;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px
+}
+.color-panel-orangered {
+    background-color: orangered;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px
+}
+.color-panel-red {
+    background-color: red;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px
+}
+.secret-color-panel {
+    background-color: green;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px   
+}
