@@ -22,9 +22,8 @@ body {
     margin: 20px auto;
     min-height: 100px
 }   
-.color-panel-aquamarine {
-    border: 1px;
-    border-color: solid white;
+.color-panel-green {
+    background-color: green;
     display: inline-block;
     width: 32%;
     text-align: center;
@@ -32,7 +31,7 @@ body {
     min-height: 100px
 }
 .color-panel-yellow {
-    background-color: white;
+    background-color: yellow;
     display: inline-block;
     width: 32%;
     text-align: center;
@@ -55,11 +54,28 @@ body {
     margin: 20px auto;
     min-height: 100px
 }
-.secret-color-panel {
-    background-color: green;
+.butn1 {
+    background-color: aquamarine;
     display: inline-block;
     width: 32%;
     text-align: center;
     margin: 20px auto;
-    min-height: 100px   
+    min-height: 100px;
+    border: none;
+    color: aquamarine;
+    box-shadow: inset 0 0 0 0 hotpink;
+    transition: ease-out 5s;   
+    outline: none;
+}   
+.butn1:hover {
+    box-shadow: inset 1000px 0 0 0 hotpink;
+    cursor: pointer;
+    color: black;
 }
+.font-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px
+} I Need Traviseseses Help with Font Style for all of Font container
