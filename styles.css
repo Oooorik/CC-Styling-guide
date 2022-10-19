@@ -72,10 +72,20 @@ body {
     cursor: pointer;
     color: black;
 }
-.font-panel {
+.font-panel1 {
     display: inline-block;
     width: 32%;
     text-align: center;
     margin: 20px auto;
     min-height: 100px
-} I Need Traviseseses Help with Font Style for all of Font container
+
+}
+.font-panel2 {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px
+
+}
+ I Need Traviseseses Help with Font Style for all of Font container
