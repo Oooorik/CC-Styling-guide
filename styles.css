@@ -5,7 +5,7 @@
    padding: 10px;
    margin: 10px auto;
 }
-h1 {
+.header h1 {
     text-align: center;
 }
 h2 {
@@ -14,6 +14,7 @@ h2 {
 body {
     background-color: aquamarine;
 }
+
 .color-panel-purple {
     background-color: purple;
     display: inline-block;
@@ -68,6 +69,12 @@ body {
     outline: none;
 }   
 .butn1:hover {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+    border: none;
     box-shadow: inset 1000px 0 0 0 hotpink;
     cursor: pointer;
     color: black;
@@ -82,10 +89,21 @@ body {
 }
 .font-label1 {
     font-style: medium;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Franklin Gothic';
 
 }
-
+.regular1 {
+    font-style:normal;
+    font-family: 'Franklin Gothic';
+}
+.bold1 {
+    font-weight: 700;
+    font-family: 'Franklin Gothic';
+}
+.Italic1 {
+    font-style: italic;
+    font-family: 'Franklin Gothic';
+}
 .font-panel2 {
     display: inline-block;
     width: 32%;
@@ -96,6 +114,18 @@ body {
 }
 .font-label2 {
     font-style: medium;
+    font-family: 'Arial Narrow';
+}
+.regular2 {
+    font-style: normal;
+    font-family: 'Arial Narrow';
+}
+.bold2 {
+    font-weight: 700;
+    font-family: 'Arial Narrow';
+}
+.italic2{
+    font-style: italic;
     font-family: 'Arial Narrow';
 }
 .font-panel0 {
@@ -116,6 +146,18 @@ body {
     font-style: medium;
     font-family:'Times New Roman';
 }
+.regular3 {
+    font-style: normal;
+    font-family: 'Times New Roman';
+}
+.bold3 {
+    font-weight: 700;
+    font-family: 'times New Roman';
+}
+.italic3 {
+    font-style: italic;
+    font-family: 'Times New Roman';
+}
 .font-panel4 {
     display: inline-block;
     width: 32%;
@@ -124,7 +166,29 @@ body {
     min-width: none 100%;
     
 }
-.font-label4 {
+.font-label4 button {
+    border-style: none;
+    background-color: aquamarine;
+    cursor: pointer;
     font-style: medium;
     font-family: 'Impact';
+}
+.font-label4 button:hover, {
+    font-style:italic;
+} FUCK I  need a travis
+
+.text-container h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Trebuchet MS';
+}
+.text-container h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family:'Segoe UI';
+}
+.text-container p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Verdana;
 }
